@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    background-color: #cccccc;
+    background: #ccc;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+}
+#bg-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-login{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #52BE80;
+    border-radius: 0px 15px 0px 15px;
+
+}
+.box-login h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.input-control{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+   
+}
+.btn {
+    padding: 8px 15px;
+    background-color: #A3E4D7;
+    font-weight: 700;
+    border:outset;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1ABC9C;
+}
+.btn-login {
+    padding: 8px 15px;
+    background-color: #A3E4D7;
+    font-weight: 700;
+    border:outset;
+    cursor: pointer;
+    border-radius: 0 10px 0 10px;
+}
+.btn-login:hover{
+    background-color: #1ABC9C;
+}
+header{
+    background-color: #52BE80 ;
+    color: #fff;
+}
+header h1{
+    float: left;
+    padding: 10px 0;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+} 
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container h3{
+    color: #000;
+}
+.section{
+    padding: 25px 0;
+}
+.box{
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+    color: #000;
+}
+.box::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tr{
+    height: 30px;
+}
+.table tr td{
+    padding: 5px 10px;
+}
+footer{
+    padding: 25px 0;
+}
+footer .container{
+    color: #000;
+}
+.fa-pencil{
+    color: #2C8212;
+    padding: 25px;
+}
+.fa-pencil:hover{
+    color: #1AD310;
+}
+.fa-trash{
+    color: #B69923;
+    padding: 20px;
+}
+.fa-trash:hover{
+    color: #FFCD00;
+}
+.fa-whatsapp{
+    color: #2C981B;
+}
+.fa-whatsapp:hover{
+    color: #23FF00;
+}
+.fa-instagram{
+    color: #bc2a8d;
+    margin-left: 10px;
+}
+.fa-instagram:hover{
+    color: #e95950;
+}
+.btn-success{
+    border: none;
+}
+.search{
+    padding: 15px 0;
+    background-color:#fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.search input[type=text]{
+    width: 60%;
+    padding: 10px;
+}
+.search input[type=submit]{
+    padding: 12px 15px;
+    background-color: #2ECC71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.col-5{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.col-4{
+    width: 20%;
+    height: 320px;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.col-4:hover{
+    box-shadow: 0 0 3px #999;
+}
+.col-4 img {
+    width: 100%;
+}
+.col-4 .nama{
+    color: #666;
+    margin-bottom: 5px;
+}
+.col-4 .harga{
+    font-weight: bold;
+    color: #1E8449;
+    float: inline-start;
+}
+.footer{
+    padding: 25px 0;
+    background-color: #52BE80;
+    color: #fff;
+    text-align: center;
+}
+.footer p{
+    margin-bottom: 10px;
+}
+.footer small{
+    display: inline-block;
+    margin-top: 25px;
+}
+.col-2{
+    width: 50%;
+    min-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.col-2 p{
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 13px;
+}
+.col-2 h3{
+    margin-bottom: 10px;
+}
+.col-2 h4{
+    color: #1E8449;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+    .col-5{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .col-4{
+        width: 50%;
+        height: 300px;
+    }
+    .col-2{
+        width: 100%;
+    }
+}
+.btn-danger{
+    background-color: #E73131;
+    border: none;
+    color: #fff;
+}
+.btn-danger:hover{
+    background-color: #FF0000;
+}
+
